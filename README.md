@@ -5,7 +5,7 @@
 - Sort an array
 - Reverse an array
 - Find the first and last elements of an array
-- Find if an element is in an array
+- Find out if an element is in an array
 - Find the size of an array
 
 ## Introduction
@@ -15,11 +15,11 @@ Next we'll take a closer look at other methods we can use with arrays, including
 how to sort elements in an array, how to find an element in an array and how to
 determine the size of an array.
 
-### Sort an Array
+## Sort an Array
 
-Sometimes we need to rearrange the contents of an array by sorting them in a
-certain order: for strings, this means alphabetically, and for numerical values,
-this means from smallest number to highest number.
+Sometimes we need to rearrange the contents of an array in a certain order: for
+strings, this means alphabetically, and for numerical values, this means from
+smallest number to highest number.
 
 **Tip:** ​*The*​ `.sort` ​*method works by implicitly comparing elements with
 the "spaceship" operator*​ `<=>` ​*(because it looks like a flying saucer,
@@ -45,15 +45,15 @@ sorted_cats = famous_cats.sort
 Now we have two copies of the array. One unsorted (`famous_cats`) and one sorted
 (`sorted_cats`).
 
-If you don't care about the unsorted version of the array you can call `sort!`.
-This will sort the existing array without requiring you to save the return into
-a new variable. The `!` is a Ruby convention that indicates the method will do
-the operation _in place_. It will modify the _receiver_ of the method (or the
-thing to the left of the dot).
+If you don't need the unsorted version of the array you can call `sort!`. This
+will sort the existing array without requiring you to save the return into a new
+variable. The `!` (called "bang") is a Ruby convention that indicates the method will do the
+operation _in place_. It will modify the _receiver_ of the method (or the thing
+to the left of the dot).
 
 ## Reverse an Array
 
-Want to arrange the elements in an array in the opposite order? For that, we
+What if we want to arrange the elements in an array in the opposite order? For that, we
 use the `.reverse` method.
 
 ```ruby  
@@ -89,7 +89,7 @@ famous_cats.last
   => "Maru"
 ```
 
-## Find If an Element Is in an Array
+## Find Out If an Element Is in an Array
 
 Wondering if a particular element is in a given array? For example, does the
 `famous_cats` array contain our favorite famous cat? We can use the `.include?`
