@@ -21,10 +21,6 @@ Sometimes we need to rearrange the contents of an array in a certain order: for
 strings, this means alphabetically, and for numerical values, this means from
 smallest number to highest number.
 
-**Tip:** ​*The*​ `.sort` ​*method works by implicitly comparing elements with
-the "spaceship" operator*​ `<=>` ​*(because it looks like a flying saucer,
-swoosh!) and moving them accordingly.*​
-
 ```ruby
 famous_cats = ["lil' bub", "grumpy cat", "maru"]
 famous_cats.sort
