@@ -66,7 +66,7 @@ the method in place.
 We've got two useful methods that give us the first and last elements of an
 array.
 
-The `.first` method will return the _firs_ element of an array. As with the
+The `.first` method will return the _first_ element of an array. As with the
 other methods we've seen here, it does not change the return value of the
 original array.
 
