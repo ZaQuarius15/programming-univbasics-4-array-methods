@@ -121,6 +121,15 @@ famous_cats.size
 Even though arrays start with a 0 `index`, this method returns the actual number
 of elements, starting from 1.
 
+The method `.length` does the same thing as `.size`:
+
+```ruby
+a_bassist = ['john', 'paul', 'jones'] #=> ["john", "paul", "jones"]
+a_bassist.length #=> 3
+a_bassist.size #=> 3
+
+```
+
 **Note**: Remember that all of the methods here are case sensitive. For example,
 `reverse` not `Reverse`.
 
